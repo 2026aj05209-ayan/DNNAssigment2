@@ -1,1 +1,15 @@
+# Deep Neural Networks Assignment 2 - Required Dependencies
+python_version >= "3.10"
+
+# Core Deep Learning Framework
+torch>=2.0.0
+
+# Scientific Computing & Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Visualization Libraries
+matplotlib>=3.7.0
+seaborn>=0.12.0
 
