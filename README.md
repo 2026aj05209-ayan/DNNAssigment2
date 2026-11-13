@@ -35,7 +35,7 @@ Both notebooks use relative paths and automatically handle dataset downloads.
 
 - **Problem 1 Execution Time:** ~ 5 minutes
 - **Problem 2 Execution Time:** ~ 95 minutes 
-- **Total Pipeline Execution Time:** ~[X] minutes
+
 
 ---
 
