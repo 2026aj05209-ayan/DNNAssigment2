@@ -1,57 +1,57 @@
 problem,model,seed,seq_len,test_acc,macro_f1,test_mse,params,sec_per_epoch,val_loss_nats,bits_per_char,notes
-p1,RNN,42,128,0.7591,0.7522,,5190,0.294,,,HAR classification h=64
-p1,RNN,43,128,0.6987,0.6873,,5190,0.2306,,,HAR classification h=64
-p1,RNN,44,128,0.7659,0.7596,,5190,0.3014,,,HAR classification h=64
-p1,LSTM,42,128,0.8799,0.8798,,19590,0.3161,,,HAR classification h=64
-p1,LSTM,43,128,0.886,0.8873,,19590,0.2831,,,HAR classification h=64
-p1,LSTM,44,128,0.8907,0.8911,,19590,0.2845,,,HAR classification h=64
-p1,GRU,42,128,0.9002,0.901,,14790,0.2672,,,HAR classification h=64
-p1,GRU,43,128,0.8884,0.8882,,14790,0.2439,,,HAR classification h=64
-p1,GRU,44,128,0.9162,0.9167,,14790,0.2802,,,HAR classification h=64
-p1,RNN,42,50,,,0.17581,4417,0.318,,,Adding problem
-p1,RNN,43,50,,,0.17822,4417,0.225,,,Adding problem
-p1,RNN,44,50,,,0.17466,4417,0.2254,,,Adding problem
-p1,LSTM,42,50,,,0.1747,17473,0.2789,,,Adding problem
-p1,LSTM,43,50,,,0.02076,17473,0.2445,,,Adding problem
-p1,LSTM,44,50,,,0.17471,17473,0.279,,,Adding problem
-p1,GRU,42,50,,,0.00404,13121,0.2463,,,Adding problem
-p1,GRU,43,50,,,0.00429,13121,0.237,,,Adding problem
-p1,GRU,44,50,,,0.00507,13121,0.2717,,,Adding problem
-p1,RNN,42,100,,,0.17169,4417,0.2315,,,Adding problem
-p1,RNN,43,100,,,0.16934,4417,0.2583,,,Adding problem
-p1,RNN,44,100,,,0.16957,4417,0.2392,,,Adding problem
-p1,LSTM,42,100,,,0.16948,17473,0.253,,,Adding problem
-p1,LSTM,43,100,,,0.16994,17473,0.2871,,,Adding problem
-p1,LSTM,44,100,,,0.16934,17473,0.2498,,,Adding problem
-p1,GRU,42,100,,,0.00409,13121,0.2748,,,Adding problem
-p1,GRU,43,100,,,0.0059,13121,0.2437,,,Adding problem
+p1,RNN,42,128,0.7591,0.7522,,5190,0.2792,,,HAR classification h=64
+p1,RNN,43,128,0.6987,0.6873,,5190,0.2408,,,HAR classification h=64
+p1,RNN,44,128,0.7659,0.7596,,5190,0.2623,,,HAR classification h=64
+p1,LSTM,42,128,0.8799,0.8798,,19590,0.2668,,,HAR classification h=64
+p1,LSTM,43,128,0.8860,0.8873,,19590,0.2589,,,HAR classification h=64
+p1,LSTM,44,128,0.8907,0.8911,,19590,0.3034,,,HAR classification h=64
+p1,GRU,42,128,0.9002,0.9010,,14790,0.2648,,,HAR classification h=64
+p1,GRU,43,128,0.8884,0.8882,,14790,0.2523,,,HAR classification h=64
+p1,GRU,44,128,0.9162,0.9167,,14790,0.2867,,,HAR classification h=64
+p1,RNN,42,50,,,0.17581,4417,0.2407,,,Adding problem
+p1,RNN,43,50,,,0.17822,4417,0.2621,,,Adding problem
+p1,RNN,44,50,,,0.17466,4417,0.2215,,,Adding problem
+p1,LSTM,42,50,,,0.17470,17473,0.2703,,,Adding problem
+p1,LSTM,43,50,,,0.02076,17473,0.2689,,,Adding problem
+p1,LSTM,44,50,,,0.17471,17473,0.2491,,,Adding problem
+p1,GRU,42,50,,,0.00404,13121,0.2714,,,Adding problem
+p1,GRU,43,50,,,0.00429,13121,0.2428,,,Adding problem
+p1,GRU,44,50,,,0.00507,13121,0.2706,,,Adding problem
+p1,RNN,42,100,,,0.17169,4417,0.2519,,,Adding problem
+p1,RNN,43,100,,,0.16934,4417,0.2273,,,Adding problem
+p1,RNN,44,100,,,0.16957,4417,0.2674,,,Adding problem
+p1,LSTM,42,100,,,0.16948,17473,0.2493,,,Adding problem
+p1,LSTM,43,100,,,0.16994,17473,0.2714,,,Adding problem
+p1,LSTM,44,100,,,0.16934,17473,0.2635,,,Adding problem
+p1,GRU,42,100,,,0.00409,13121,0.2422,,,Adding problem
+p1,GRU,43,100,,,0.00590,13121,0.2848,,,Adding problem
 p1,GRU,44,100,,,0.00336,13121,0.2438,,,Adding problem
-p1,RNN,42,200,,,0.16992,4417,0.2776,,,Adding problem
-p1,RNN,43,200,,,0.17081,4417,0.2432,,,Adding problem
-p1,RNN,44,200,,,0.17313,4417,0.2746,,,Adding problem
-p1,LSTM,42,200,,,0.17433,17473,0.2625,,,Adding problem
-p1,LSTM,43,200,,,0.16869,17473,0.2844,,,Adding problem
-p1,LSTM,44,200,,,0.16874,17473,0.2749,,,Adding problem
-p1,GRU,42,200,,,0.00706,13121,0.2591,,,Adding problem
-p1,GRU,43,200,,,0.03141,13121,0.2918,,,Adding problem
-p1,GRU,44,200,,,0.00522,13121,0.2571,,,Adding problem
-p1,RNN,42,400,,,0.15267,4417,0.2911,,,Adding problem
-p1,RNN,43,400,,,0.15291,4417,0.2588,,,Adding problem
-p1,RNN,44,400,,,0.15395,4417,0.2915,,,Adding problem
-p1,LSTM,42,400,,,0.15332,17473,0.4073,,,Adding problem
-p1,LSTM,43,400,,,0.15264,17473,0.4044,,,Adding problem
-p1,LSTM,44,400,,,0.15328,17473,0.4037,,,Adding problem
-p1,GRU,42,400,,,0.15344,13121,0.4329,,,Adding problem
-p1,GRU,43,400,,,0.14852,13121,0.4392,,,Adding problem
-p1,GRU,44,400,,,0.14754,13121,0.4442,,,Adding problem
-p1,LSTM,42,128,0.8612,0.8598,,1830,0.2589,,,HAR classification h=16
-p1,LSTM,42,128,0.8531,0.8517,,5702,0.3071,,,HAR classification h=32
-p1,LSTM,42,128,0.8778,0.8773,,19590,0.2554,,,HAR classification h=64
-p1,LSTM,42,128,0.8935,0.893,,71942,0.3696,,,HAR classification h=128
-p1,GRU,42,128,0.866,0.8654,,1398,0.2467,,,HAR classification h=16
-p1,GRU,42,128,0.8911,0.8908,,4326,0.267,,,HAR classification h=32
-p1,GRU,42,128,0.8965,0.8961,,14790,0.2524,,,HAR classification h=64
-p1,GRU,42,128,0.9033,0.9024,,54150,0.2538,,,HAR classification h=128
+p1,RNN,42,200,,,0.16992,4417,0.2738,,,Adding problem
+p1,RNN,43,200,,,0.17081,4417,0.2496,,,Adding problem
+p1,RNN,44,200,,,0.17313,4417,0.2479,,,Adding problem
+p1,LSTM,42,200,,,0.17433,17473,0.3023,,,Adding problem
+p1,LSTM,43,200,,,0.16869,17473,0.2644,,,Adding problem
+p1,LSTM,44,200,,,0.16874,17473,0.2994,,,Adding problem
+p1,GRU,42,200,,,0.00706,13121,0.2690,,,Adding problem
+p1,GRU,43,200,,,0.03141,13121,0.2901,,,Adding problem
+p1,GRU,44,200,,,0.00522,13121,0.2545,,,Adding problem
+p1,RNN,42,400,,,0.15267,4417,0.2754,,,Adding problem
+p1,RNN,43,400,,,0.15291,4417,0.2816,,,Adding problem
+p1,RNN,44,400,,,0.15395,4417,0.2677,,,Adding problem
+p1,LSTM,42,400,,,0.15332,17473,0.3821,,,Adding problem
+p1,LSTM,43,400,,,0.15264,17473,0.3806,,,Adding problem
+p1,LSTM,44,400,,,0.15328,17473,0.3841,,,Adding problem
+p1,GRU,42,400,,,0.15344,13121,0.4184,,,Adding problem
+p1,GRU,43,400,,,0.14852,13121,0.4191,,,Adding problem
+p1,GRU,44,400,,,0.14754,13121,0.4213,,,Adding problem
+p1,LSTM,42,128,0.8612,0.8598,,1830,0.2915,,,HAR classification h=16
+p1,LSTM,42,128,0.8531,0.8517,,5702,0.2521,,,HAR classification h=32
+p1,LSTM,42,128,0.8778,0.8773,,19590,0.2847,,,HAR classification h=64
+p1,LSTM,42,128,0.8935,0.8930,,71942,0.3385,,,HAR classification h=128
+p1,GRU,42,128,0.8660,0.8654,,1398,0.2821,,,HAR classification h=16
+p1,GRU,42,128,0.8911,0.8908,,4326,0.2435,,,HAR classification h=32
+p1,GRU,42,128,0.8965,0.8961,,14790,0.2618,,,HAR classification h=64
+p1,GRU,42,128,0.9033,0.9024,,54150,0.2586,,,HAR classification h=128
 p2,Transformer_none,42,128,0.8921,0.8909,,398726,1.3658,,,Task A HAR Encoder Classifier
 p2,Transformer_none,43,128,0.8972,0.8969,,398726,1.365,,,Task A HAR Encoder Classifier
 p2,Transformer_none,44,128,0.906,0.9035,,398726,1.4303,,,Task A HAR Encoder Classifier
