@@ -2,7 +2,7 @@
 
 **Student Name:** Ayan Chawla   
 **Student ID:** 2026AJ05209  
-**Variant:** [Task 5(c) Ablation: Gradient Clipping (Even Digit) / Forget-Gate Bias (Odd Digit)]
+**Assignment Variant:** Odd Last Digit (9) — Task 5(c) Ablation: LSTM Forget-Gate Bias Initialization (0.0 vs. 1.0)
 
 ---
 
