@@ -34,7 +34,7 @@ Both notebooks use relative paths and automatically handle dataset downloads.
 ## 3. Total Run Time (T4 GPU)
 
 - **Problem 1 Execution Time:** ~[X] minutes
-- **Problem 2 Execution Time:** ~[X] minutes (Task B Causal LM: ~10–15 minutes)
+- **Problem 2 Execution Time:** ~95 minutes 
 - **Total Pipeline Execution Time:** ~[X] minutes
 
 ---
