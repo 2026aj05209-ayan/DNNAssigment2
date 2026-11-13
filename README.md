@@ -1,7 +1,7 @@
 # Deep Neural Networks Assignment 2: Recurrent Networks & Transformers
 
-**Student Name:** [Your Name]  
-**Student ID:** [Your Student ID]  
+**Student Name:** Ayan Chawla
+**Student ID:** 2026AJ05209  
 **Variant:** [Task 5(c) Ablation: Gradient Clipping (Even Digit) / Forget-Gate Bias (Odd Digit)]
 
 ---
