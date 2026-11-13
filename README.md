@@ -1,6 +1,6 @@
 # Deep Neural Networks Assignment 2: Recurrent Networks & Transformers
 
-**Student Name:** Ayan Chawla 
+**Student Name:** Ayan Chawla   
 **Student ID:** 2026AJ05209  
 **Variant:** [Task 5(c) Ablation: Gradient Clipping (Even Digit) / Forget-Gate Bias (Odd Digit)]
 
@@ -33,8 +33,8 @@ Both notebooks use relative paths and automatically handle dataset downloads.
 
 ## 3. Total Run Time (T4 GPU)
 
-- **Problem 1 Execution Time:** ~[X] minutes
-- **Problem 2 Execution Time:** ~95 minutes 
+- **Problem 1 Execution Time:** ~ 5 minutes
+- **Problem 2 Execution Time:** ~ 95 minutes 
 - **Total Pipeline Execution Time:** ~[X] minutes
 
 ---
